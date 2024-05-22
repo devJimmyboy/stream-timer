@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json.schemastore.org/nodemon",
+  "exec": "node --no-warnings=ExperimentalWarning --loader ts-node/esm ./src/index.ts",
+  "ext": "ts,json",
+  "watch": [
+    "src"
+  ]
+}
